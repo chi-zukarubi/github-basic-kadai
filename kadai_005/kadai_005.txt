@@ -1,0 +1,46 @@
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai
+$ mkdir git_challenge
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai
+$ cd git_challenge
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/chi00/kadai/git_challenge/.git/
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ touch hello_world.txt
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ echo "Hello,world!" > hello_world.txt
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ git commit -m "First commit"
+[main (root-commit) 0812a9d] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ git commit -m "second commit"
+[main e453c25] second commit
+ 1 file changed, 1 insertion(+)
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/git_challenge (main)
+$ cd ..
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai
+$ mkdir kadai_005
+
+chi00@DESKTOP-1BOHSOL MINGW64 ~/kadai/kadai_005
+$ touch kadai_005.txt
